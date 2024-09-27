@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class ConversorDeMoedas {
 
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/46ca2bf3f8d91f1e4f5f96ec/latest/BRL";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/46ca2bf3f8d91f1e4f5f96ec/latest/USD";
 
     public static Map<String, Double> obterTaxasDeConversao() throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
